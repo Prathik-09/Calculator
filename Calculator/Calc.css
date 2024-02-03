@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: rgb(83, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 20px;
+    background: rgba(43, 42, 42, 0.796);
+    border-radius: 10px;
+}
+.buttons input{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(138, 100, 60, 0.796);
+}
+.buttons input:active{
+    transition: 0.75s ease-in;
+}
+#div{
+    background: rgb(255, 187, 0);   
+}
+#input{
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.buttons input{
+    flex: 1 0 8rem;
+}
+
